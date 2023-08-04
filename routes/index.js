@@ -1,11 +1,10 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
-router.get('/', (req, res) => {
-  return res.render('index', { title: 'Comisión 21' });
-});
+const indexController = require('../controllers/indexController')
 
-router.get('/about', (req,res) => res.render('about'))
+/* GET home page. */
+router.get('/', indexController.index)
+router.get('/about', indexController.about)
 
 module.exports = router;

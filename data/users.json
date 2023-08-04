@@ -1,0 +1,13 @@
+[
+    {
+        "name" : "Eric",
+        "age" : 25,
+        "married" : true
+    },
+
+    {
+        "name" : "Ismael",
+        "age" : 45,
+        "married" : false
+    }
+]
