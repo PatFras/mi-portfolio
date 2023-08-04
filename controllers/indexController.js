@@ -4,6 +4,6 @@ module.exports = {
              title: 'Comisión 21'
              });
     },
-    about : (req,res) => res.render('about')
+    about : (req,res) => res.render('about') 
 
 }
